@@ -146,14 +146,6 @@ This code trains and evaluates an **image classification model** for cow identif
     - `final_report.pdf`
   - Best model checkpoint saved automatically.
 
----
-
-## 📂 Project Structure
-
-Dataset_for_TRAIN/
-│── train/
-│── val/
-│── test/ # optional
 
 ---
 
@@ -236,15 +228,6 @@ python evaluate_accuracy.py \
 |`--save`          | optional path to save detailed per-frame evaluation        |
 
 
-# Sample output:
 
-✅ Overall Accuracy (IoU ≥ 0.5): 0.9234
-📈 Precision: 0.9200
-📈 Recall:   0.9150
-📈 F1-Score: 0.9175
-
-📊 Accuracy per cow:
-Ava      0.95
-Bella    0.90
 
 
